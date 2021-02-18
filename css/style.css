@@ -1,96 +1,77 @@
-/* html{  background: url("img/pechene-ryba-listiki-smorodina-iagody.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  font-family: Cursive;
-  opacity: 0.92;
-  } 
-  div{
-    background: gray;
-    
-  }
-  .header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    text-align: center;
-    width: 100%;
-    background-color: #f1f1f1;
-  }
 
-  .header h2 {
-    text-align: center;
-  }
-
-
-  div.transbox {
-      margin: 30px;
-      background-color: #ffffff;
-      border: 1px solid black;
-      }
-
-  div.transbox h2,label, input{
-      margin: 5%;
-      font-weight: bold;
-      font-size: 25px;
-      color: #000000;
-  }
-  footer{
-      color: rgb(0, 0, 0) ;
-      font-size: 20px;
-
-  }
-      
-  .progress-container {
-    width: 100%;
-    height: 10px;
-    background: #ccc;
-  }
-
-  .progress-bar {
-    height: 10px;
-    background:rgb(165, 6, 67);
-    width: 0%;
-  }
-  button{
-      font-weight: bold;
-  }
-  #burger {
-      display: none;
-      }
-  #PIZZA{
-      display: none;
-
-  }
-    
-table{
-    border: 1px solid red;
-    width: 100%;
-}
-th,td{
-    border:1px solid royalblue;
-    margin-left: 10px;
-    
-}
-.form1 { 
-  font-size: xx-large;
-  border: 3px solid rgb(214, 17, 17);
-  margin: 30px;
-  background-color: #ffffff; 
-}
-div.transbox h2, label, input {
-  margin:1%;
-  margin-left:  2%;
-  right: 100px;
-}
-
-div.transbox input {
-left: 0;
-
-
-} */
 * {
 box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  width: 100%;
+
+}
+header{
+  width: 98%;
+}
+header div{
+  margin-top: 17px;
+    width: 253px;
+    margin-left: 35px;
+}
+header div img{
+  margin-left: 12px;
+  margin-top: 10px;
+}
+header div h1{
+  font-family: 'Lobster', cursive;
+  position: relative;
+  left: 60px;
+  bottom: 46px;
+  font-size: 24px;
+    font-weight: bold;
+}
+header div p{
+  font-size: 11px;
+  position: relative;
+  left: 60px;
+  bottom: 38px;
+}
+nav ul{
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+header nav ul li{
+  display: inline-block;
+    position: relative;
+    left: 1100px;
+    top: -66px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+margin-top: 25px;
+
+}
+footer img{
+  margin-left: 50%;
+
+}
+footer article{
+  text-align: center;
+  padding: 20px;
+  color: lightslategray;
+  
 }
 .contianer{
 padding: 5%;
