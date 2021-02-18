@@ -113,6 +113,7 @@ input[type="checkbox" i] {
 }
 
 article{
+ 
   position:relative;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -120,18 +121,21 @@ article{
 }
 
 .rightForm{
+  font-family: system-ui;
   position:relative;
   width: 50%;
   display:inline-block;
   padding-left: 15%;
-
-}
+  color: revert;}
 .leftForm{
+  color: revert;
+  font-family: system-ui;
   position:relative;
   width: 50%;
   padding-left: 15%;
   float:right;
   display:inline-block;
+  
 }
 .post{
 margin-top: 61px;
@@ -190,7 +194,10 @@ height: 148px;
   bottom: 4px;
 }
 
-
+hr{
+  height: 10px;
+  background-color: lightslategray;
+}
 
 
 
