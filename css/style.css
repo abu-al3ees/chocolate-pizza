@@ -60,11 +60,14 @@ header nav ul li{
 
 
 footer{
-  margin-top: -33px;;
-
+  margin-top: -33px;
+  height: 100px;
 }
 footer img{
+
   margin-left: 50%;
+    position: relative;
+    bottom: 19px;
 
 }
 footer article{
@@ -72,6 +75,8 @@ footer article{
   padding: 20px;
   color: lightslategray;
   margin-top: 0px;
+  margin-top: -24px;
+
   
 }
 .contianer{
@@ -172,6 +177,9 @@ height: 148px;
     background-color: rgb(175, 85, 85);
     color:white;
     border: none;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
   
 }
 
@@ -197,6 +205,9 @@ height: 148px;
 hr{
   height: 10px;
   background-color: lightslategray;
+}
+footer hr{
+  height: 2px;
 }
 
 
