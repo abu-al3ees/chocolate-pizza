@@ -60,7 +60,7 @@ header nav ul li{
 
 
 footer{
-margin-top: 25px;
+  margin-top: -33px;;
 
 }
 footer img{
@@ -71,6 +71,7 @@ footer article{
   text-align: center;
   padding: 20px;
   color: lightslategray;
+  margin-top: 0px;
   
 }
 .contianer{
@@ -129,6 +130,72 @@ article{
   position:relative;
   width: 50%;
   padding-left: 15%;
-  float: right;
+  float:right;
   display:inline-block;
 }
+.post{
+margin-top: 61px;
+height: 148px;
+}
+.contianer .post h1{
+  position: relative;
+    left: 100px;
+    bottom: 67px;
+    font-size: 23px;
+
+
+}
+.post img{
+  border-radius: 52%;
+    margin-left: 20px;
+    margin-top: 12px
+}
+.post article{
+  position: relative;
+  bottom: 120px;
+  left: 95px;
+}
+
+.post article span{
+  position: relative;
+    left: 800px;
+    bottom: 10px
+
+}
+.post article span button{
+  width: 150px;
+    height: 53px;
+    background-color: rgb(175, 85, 85);
+    color:white;
+    border: none;
+  
+}
+
+.contianer h1{
+  font-size: 40px;
+  font-family: fantasy;
+}
+.contianer span{
+  color: lightslategray;
+    margin-right: -11px;
+    font-family: -webkit-pictograph;
+    padding: 6px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+.contianer .imgSpan img{
+  position: relative;
+  left: 1187px;
+  bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
